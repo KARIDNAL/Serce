@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="36px" height="34px" viewBox="0 0 36 34" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M18 3C16.038 1.50082 13.032 0 10 0C4.347 0 0 4.47466 0 10C0 17.1853 6.12 22.9014 16 31L16.3851 32.2248C17.1686 33.2958 18.8314 33.2958 19.6149 32.2248C19.9964 31.7034 20.2329 31.2152 20 31C29.88 22.9014 36 17.1853 36 10C36 4.47466 31.653 0 26 0C22.968 0 19.962 1.50082 18 3Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Path">
+    <g clip-path="url(#clip_1)">
+      <use xlink:href="#path_1" fill="none" stroke="#808080" stroke-width="2" />
+    </g>
+  </g>
+</svg>

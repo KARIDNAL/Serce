@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="4.7209754" y1="14.892005" x2="23.743967" y2="-3.0847728" id="gradient_1">
+      <stop offset="0%" stop-color="#E53656" />
+      <stop offset="100%" stop-color="#6082D8" />
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="0.2622764" y1="8.273336" x2="1.3191093" y2="-1.7137628" id="gradient_2">
+      <stop offset="0%" stop-color="#E53656" />
+      <stop offset="100%" stop-color="#6082D8" />
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="0.17266636" y1="2.6227639" x2="1.1713762" y2="13.191093" id="gradient_3">
+      <stop offset="0%" stop-color="#E53656" />
+      <stop offset="100%" stop-color="#6082D8" />
+    </linearGradient>
+  </defs>
+  <path d="M18 9C18 13.9627 13.9627 18 9 18C4.03729 18 0 13.9627 0 9C0 4.03729 4.03729 0 9 0C13.9627 0 18 4.03729 18 9ZM16.8824 8.94118C16.8824 4.56188 13.3205 1 8.94118 1C4.56189 1 1 4.56188 1 8.94118C1 13.3205 4.56189 16.8824 8.94118 16.8824C13.3205 16.8824 16.8824 13.3205 16.8824 8.94118Z" id="Shape" fill="url(#gradient_1)" stroke="none" />
+  <path d="M8.5 4L9.5 4L9.5 14L8.5 14L8.5 4Z" id="Rectangle-18" fill="url(#gradient_2)" fill-rule="evenodd" stroke="none" />
+  <path d="M14 8.5L14 9.5L4 9.5L4 8.5L14 8.5Z" id="Rectangle-18-Copy" fill="url(#gradient_3)" fill-rule="evenodd" stroke="none" />
+</svg>

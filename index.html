@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/fonts/stylesheet.css" />
+    <link rel="stylesheet" href="./style/helps_modal.css" />
+    <title>Heart</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-items">
+            <div class="logo">
+              <a href="./index.html"
+                ><img src="./Img/Logo-site.svg" alt="logo" class="heart"
+              /></a>
+            </div>
+            <div class="linguage">
+              <ul class="linguage-link">
+                <li class="linguage-items active">
+                  <button class="btn_nav">УКР</button>
+                </li>
+
+                <li class="linguage-items">
+                  <button class="btn_nav">РУС</button>
+                </li>
+                <li class="linguage-items">
+                  <button class="btn_nav">EN</button>
+                </li>
+              </ul>
+            </div>
+            <nav class="nav">
+              <ul class="nav-list">
+                <li class="nav-item"><a href="./проекти/projects.html">Проекти</a></li>
+                <li class="nav-item"><a href="./архив/archiv.html">Архів</a></li>
+                <li class="nav-item">
+                  <a href="./contact/contact.html">Контакти</a>
+                </li>
+                <li class="nav-item dop"><a href="./термiнова-допомога/urgent_help.html">Термінова допомога</a></li>
+              </ul>
+            </nav>
+            <div class="shearch">
+              <button id="open-modal">
+                <img src="./Img/Shearch.svg" alt="Shearch" class="sherch-img" />
+              </button>
+            </div>
+            <div class="modal" id="myModal" hidden>
+              <div class="modal_box">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="пошук"
+                  id="modal_input_shearch"
+                />
+                <button class="module_close_btn" id="clouse-my-module">
+                  <img src="./Img/clouse-modale.png" alt="" />
+                </button>
+              </div>
+              <div class="input_Dropdow">
+                <div id="myDropdown">
+                  <div class="search-result">
+                    <div class="search-result__items">
+                      <div class="search-item">
+                        <div class="search-item__title">Проекти</div>
+                        <div class="search-item__content">
+                          <span class="search-item__content-title">Дiти</span>
+                          <span class="search-item__content-text"
+                            >Для операції на сердце маленькому хлопчику,
+                            необхідно зібрати гроші на ліки</span
+                          >
+                          <div
+                            style="
+                              height: 1px;
+                              width: 300px;
+                              background-color: white;
+                              opacity: 0.4;
+                            "
+                          ></div>
+                          <span class="search-item__content-text">
+                            Збираємо гроші на лікування п’ятирічного Василя,
+                            який став жертвою ДТП
+                          </span>
+                        </div>
+                        <div class="search-item__content">
+                          <span class="search-item__content-title">Війна</span>
+                          <span class="search-item__content-text"
+                            >Необхідно зібрати ліки для поранених бійців із зони
+                            АТО
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        style="
+                          height: 1px;
+                          width: 700px;
+                          background-color: white;
+                          opacity: 0.4;
+                          margin: 40px 350px;
+                        "
+                      ></div>
+                      <div class="search-item">
+                        <div class="search-item__title block-2">Архів</div>
+                        <div class="search-item__content">
+                          <span class="search-item__content-title">Дiти</span>
+                          <span class="search-item__content-text"
+                            >Необхідно купити ліки для дитячого будинку в місті
+                            Київ</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="login">
+              <span class="login-text"> Вхід / Зареєструватися </span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <div class="main__content">
+            <div class="main__head">
+              <div class="main__head-title">Добре Серце</div>
+              <div class="main__content-link">
+                детальніше про проект<a href="#!"
+                  ><img class="arrow" src="./Img/arrow.svg" alt="arrow" />
+                </a>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="main__content-centre">
+              <div class="main__content-centre-title">
+                Вже зараз Ви можете допомогти тим, хто дійсно<br />потребує
+                допомоги
+              </div>
+              <div class="main__content-centre-text">
+                <div class="main__content-link-2">
+                  Як Ви можете допомогти?<a href="#!"
+                    ><img class="arrow" src="./Img/arrow.svg" alt="arrow" />
+                  </a>
+                </div>
+                <div class="main__content-centre-text-link">
+                  <button class="helps_btn" id="helps_btn">
+                    Допомогти вже зараз
+                  </button>
+                </div>
+                <div id="helps_modal" class="helps_modal">
+                  <span id="helps_modal-close" class="helps_modal-close"
+                    ><img src="./Img/clouse-modale.png" alt=""
+                  /></span>
+                  <div class="helps_modal-wrapper">
+                    <div class="helps_modal-content">
+                      <header class="header_helps_modal">
+                        <div class="header_helps-info">
+                          <div class="header_helps-title">Заповніть форму</div>
+                          <div class="entrepreneur">
+                            <div class="entrepreneur-button">
+                              <button class="individual individual_button1">Фіз. особа</button>
+                              <button class="legal_entity legal_entity_button2">Юр. особа</button>
+                            </div>
+                          </div>
+                          <div class="header_helps-middle">
+                            <div class="header_helps-middle-box1">
+                              <div class="name_last-name">
+                                <div style="display: flex; flex-direction: column;">
+                                  <label for="name">Ім’я</label>
+                                  <input class="entrepreneur_info small_info" type="text" id="name" name="name">
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                  <label for="last_name">Фамілія</label>
+                                  <input class="entrepreneur_info small_info" type="text" id="last_name" name="last_name">
+                                </div>
+                              </div>
+                              <div>
+                                <label for="name_company">Назва компанії, організації</label>
+                                <input class="entrepreneur_info" type="text" id="name_company" name="name_company">
+                              </div>
+                              <div>
+                                <label for="email">Email-адрес</label>
+                                <input class="entrepreneur_info" type="email" id="email" name="email">
+                              </div>
+                              <div>
+                                <label for="phone-input">Номер телефону</label>
+                                <input class="entrepreneur_info" type="tel" id="phone-input" name="phone-input" pattern="^\+[\d]{1,3}[\s]{1}[\d]{3}[\s]{1}[\d]{3}[\s-]{1}[\d]{2}[\s-]{1}[\d]{2}$" required>
+                              </div>
+                            </div>
+                            <div class="header_helps-middle-box2">
+                              <div>
+                                <label for="country">Країна</label>
+                                <input class="entrepreneur_info" type="text" id="country" name="country">
+                              </div>
+                              <div class="name_last-name">
+                                <div style="display: flex; flex-direction: column;">
+                                  <label for="city">Місто</label>
+                                  <input class="entrepreneur_info small_info" type="text" id="city" name="city">
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                  <label for="State">Штат, район</label>
+                                  <input class="entrepreneur_info small_info" type="text" id="State" name="State">
+                                </div>
+                              </div>
+                              <div>
+                                <label for="address">Адреса</label>
+                                <input class="entrepreneur_info" type="text" id="address" name="address">
+                              </div>
+                              <div style="display: flex; flex-direction: column;">
+                                <label for="index">Поштовий індекс</label>
+                                <input class="entrepreneur_info small_info" type="text" id="index" name="index" pattern="^\+[\d]{1,3}[\s]{1}[\d]{3}[\s]{1}[\d]{3}[\s-]{1}[\d]{2}[\s-]{1}[\d]{2}$" required>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="header_helps-footer">
+                            <div class="header_helps-middle-box1">
+                              <div>
+                                <label for="Legal_address">Юридична адреса</label>
+                                <input class="entrepreneur_info" type="text" id="Legal_address" name="Legal_address">
+                              </div>
+                              <div class="name_last-name">
+                                <div style="display: flex; flex-direction: column;">
+                                  <label for="Name_bank">Найменування банку</label>
+                                  <input class="entrepreneur_info small_info" type="text" id="Name_bank" name="Name_bank">
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                  <label for="MFI">МФО банку</label>
+                                  <input class="entrepreneur_info small_info" type="text" id="MFI" name="MFI">
+                                </div>
+                              </div>
+                              <div>
+                                <label for="Current_account">Розрахунковий рахунок</label>
+                                <input class="entrepreneur_info" type="text" id="Current_account" name="Current_account">
+                              </div>
+                            </div>
+                            <div class="header_helps-middle-box2">
+                              <div class="name_last-name">
+                                <div style="display: flex; flex-direction: column;">
+                                  <label for="ZKPO">ЗКПО</label>
+                                  <input class="entrepreneur_info small_info" type="text" id="ZKPO" name="ZKPO">
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                  <label for="taxation">Тип оподаткування</label>
+                                  <input class="entrepreneur_info small_info" type="text" id="taxation" name="taxation">
+                                </div>
+                              </div><div class="name_last-name">
+                                <div style="display: flex; flex-direction: column;">
+                                  <label for="TIN">ІНН</label>
+                                  <input class="entrepreneur_info small_info" type="text" id="TIN" name="TIN">
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                  <label for="taxation_system">Система оподаткування</label>
+                                  <input class="entrepreneur_info small_info" type="text" id="taxation_system" name="taxation_system">
+                                </div>
+                              </div>
+                              <div class="name_last-name">
+                                <div style="display: flex; flex-direction: column;">
+                                  <label for="Bookkeeping">Телефон бугалтерії</label>
+                                  <input class="entrepreneur_info small_info" type="tel" id="Bookkeeping" name="Bookkeeping" pattern="^\+[\d]{1,3}[\s]{1}[\d]{3}[\s]{1}[\d]{3}[\s-]{1}[\d]{2}[\s-]{1}[\d]{2}$" required>
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                  <label for="Fax">Факс</label>
+                                  <input class="entrepreneur_info small_info" type="text" id="Fax" name="Fax">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </header>
+                      <div class="helps_modal-title">Види допомоги</div>
+                      <div class="helps_modal-furniture">
+                        <div class="helps-furniture">
+                          <img class="helps-furniture-img" src="./Img/heand_makes.svg" alt="" />
+                          <div class="helps-furniture-text">
+                            <div class="furniture-text-title">Зробити</div>
+                            <div class="furniture-text-description">
+                            Натискайте цю кнопку, якщо Ви хочете зробити,
+                            наприклад: ремонт у дитячому будинку, складну
+                            операцію, побудувати дитячий майданчик або
+                            побудувати житло для переселенців і тд.
+                              <div style="margin: 10px auto"></div>
+                            Ця кнопка, для організацій, які можуть взяти на себе
+                            відповідальність за увесь проект.
+                          </div>
+                          </div>
+                        </div>
+                        <div class="helps-furniture">
+                          <img class="helps-furniture-img" src="./Img/helps_2ico.svg" alt="" />
+                          <div class="helps-furniture-text">
+                            <div class="furniture-text-title">
+                              Фінансова допомога
+                            </div>
+                            <div class="furniture-text-description">Перераховуйте гроші тим, хто дійсно потребує цього.</div>
+                            
+                          </div>
+                        </div>
+                        <div class="helps-furniture">
+                          <img class="helps-furniture-img" src="./Img/helps_3ico.svg" alt="" />
+                          <div class="helps-furniture-text">
+                            <div class="furniture-text-title">
+                              Матеріальна допомога
+                            </div>
+                            <div class="furniture-text-description">Зберіть ліки, речі, їжу, іграшки та інше, для тих,
+                              кому це необхідно.</div>
+                            
+                          </div>
+                        </div>
+                        <div class="helps-furniture">
+                          <img class="helps-furniture-img" src="./Img/helps_4ico.svg" alt="" />
+                          <div class="helps-furniture-text">
+                            <div class="furniture-text-title">Волонтерство</div>
+                            <div class="furniture-text-description">Допоможіть ділом або професійними навичками.
+                              Підтримайте проекти своєю роботою.</div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="payment_wrapper">
+                     <div class="payment_win">
+                      <div class="payment_cards">
+                        <span style="color: #939aa3; font-size: 14px;">Спосіб оплати </span>
+                       <div class="payment_cards_top">
+                        
+                          <div class="cards_content" onclick="toggle(this)">
+                            <div class="cards_content_img">
+                              <img  src="./Img/Мастеркард.png" alt="">
+                              <img style="margin-top: 4px;" src="./Img/visa-pay-logo.png" alt="">
+                            </div>
+                            <span style="align-self: center;">Карта Visa/MasterCard</span>
+                          </div>
+                        
+                        
+                          <div class="cards_content" onclick="toggle(this)">
+                            <div class="cards_content_img">
+                              <span style="font-size: 18px;">Приват24</span>
+                            </div>
+                            <span style="align-self: center;">Приват24</span>
+                          </div>
+                        
+                        
+                          <div class="cards_content" onclick="toggle(this)">
+                            <div class="cards_content_img">
+                              <img src="./Img/the-tube-terminal.png" alt="">
+            
+                            </div>
+                            <span style="align-self: center;">Термінали України</span>
+                          </div>
+                        
+                      </div>
+                      <div class="payment_cards_botton">
+                        
+                          <div class="cards_content" onclick="toggle(this)">
+                            <div class="cards_content_img">
+                              <img src="./Img/webmoney-paying-logo.png" alt="">
+                              
+                            </div>
+                            <span style="align-self: center;">WebMoney</span>
+                          </div>
+                        
+                        
+                          <div class="cards_content" onclick="toggle(this)">
+                            <div class="cards_content_img">
+                              <img src="./Img/paypal-logo.png" alt="">
+                             
+                            </div>
+                            <span style="align-self: center;">PayPal</span>
+                          </div>
+                         
+                        </div>
+                      </div>
+                      <div class="numder_cards">
+                        <span style="color: #939aa3; font-size: 14px;">Введіть наступні данні</span>
+                      <div class="numder_cards-info">
+                        <div style="font-size: 14px; margin: 0 0 0 20px;" >Номер карти</div>
+                        <div class="input_wins">
+                          
+                          <div class="top-input-win">
+                            <input class="num-input cards_number" type="text" maxlength="4" placeholder="0000" oninput="changeHandler(this)">
+                            <input class="num-input cards_number" type="text" maxlength="4" placeholder="0000" oninput="changeHandler(this)">
+                            <input class="num-input cards_number" type="text" maxlength="4" placeholder="0000" oninput="changeHandler(this)">
+                            <input class="num-input cards_number" type="text" maxlength="4" placeholder="0000" oninput="changeHandler(this)">
+                          </div>
+                          <div class="botton-input-win">
+                            <input class="num-input additionally" maxlength="8" placeholder="Термін дії" type="text" oninput="changeHandler(this)">
+                            <input class="num-input additionally" maxlength="3" placeholder="CVC/CVV" type="password" oninput="changeHandler(this)">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <footer class="helps_footer">
+                      <div>
+                        <button class="helps_footer-btn">
+                          Допомогти
+                        </button>
+                      </div>
+                    </footer>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hr"></div>
+            <div class="main__content-footer">
+              <div class="main__content-footer-title">
+                Якщо Вам необхідна допомога, додайте проект
+              </div>
+              <div class="main__content-footer-link">
+                <button class="plus">
+                  Додати проект
+                  <img class="arrow" src="./Img/plus.png" alt="plus" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="spacer"></div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer_box">
+            <div class="footer_box-title">Розповісти всім:</div>
+            <ul class="footer_box-img">
+              <li><img class="footer-img" src="./Img/twitter.svg" alt="" /></li>
+              <li>
+                <img class="footer-img" src="./Img/Facebook.svg" alt="" />
+              </li>
+              <li><img class="footer-img" src="./Img/vk.svg" alt="" /></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <div style="position: fixed; bottom: 0; right: 0">
+        <img class="white-fon" src="./Img/white-fon.svg" style="float: right" />
+        <img class="big-heart" src="./Img/Big-heart.png" style="float: right" />
+        <button style="height: 30px">
+          <img class="chat" src="./Img/Чат.png" style="float: right" />
+        </button>
+      </div>
+    </div>
+    <script src="./Js/main.js"></script>
+    <script src="./Js/helps_modal.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(47deg, #e53656 0% 0%, #6082d8 100% 100%);
+  background-repeat: no-repeat;
+  font-family: "Geometria";
+  color: #c5d5e6;
+  font-weight: 400;
+  color: white;
+}

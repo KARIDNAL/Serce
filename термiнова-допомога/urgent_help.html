@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/reset.css" />
+    <link rel="stylesheet" href="../style/fonts/stylesheet.css" />
+    <link rel="stylesheet" href="../архив/archiv.css" />
+    <link rel="stylesheet" href="./urgent_help.css">
+    <title>Heart</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-items header-items-archive">
+            <div class="logo">
+              <a href="../index.html"
+                ><img src="../Img/Лого-urgent_help.png" alt="logo" class="heart"
+              /></a>
+            </div>
+            <div class="linguage">
+              <ul class="linguage-link">
+                <li class="linguage-items active">
+                  <button class="btn_nav">УКР</button>
+                </li>
+
+                <li class="linguage-items">
+                  <button class="btn_nav">РУС</button>
+                </li>
+                <li class="linguage-items">
+                  <button class="btn_nav">EN</button>
+                </li>
+              </ul>
+            </div>
+            <nav class="nav">
+              <ul class="nav-list">
+                <li class="nav-item "><a href="../проекти/projects.html">Проекти</a></li>
+                <li class="nav-item">
+                  <a href="../архив/archiv.html">Архів</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../contact/contact.html">Контакти</a>
+                </li>
+                <li class="nav-item dop bg_contacts"><a href="">Термінова допомога</a></li>
+              </ul>
+            </nav>
+            <div class="shearch">
+              <button id="open-modal">
+                <img
+                  src="../Img/Shearch.svg"
+                  alt="Shearch"
+                  class="sherch-img"
+                />
+              </button>
+            </div>
+            <div class="modal" id="myModal" hidden>
+              <div class="modal_box">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="пошук"
+                  id="modal_input_shearch"
+                />
+                <button class="module_close_btn" id="clouse-my-module">
+                  <img src="../Img/clouse-modale.png" alt="" />
+                </button>
+              </div>
+              <div class="input_Dropdow">
+                <div id="myDropdown">
+                  <div class="search-result">
+                    <div class="search-result__items">
+                      <div class="search-item">
+                        <div class="search-item__title">Проекти</div>
+                        <div class="search-item__content">
+                          <span class="search-item__content-title">Дiти</span>
+                          <span class="search-item__content-text"
+                            >Для операції на сердце маленькому хлопчику,
+                            необхідно зібрати гроші на ліки</span
+                          >
+                          <div
+                            style="
+                              height: 1px;
+                              width: 300px;
+                              background-color: white;
+                              opacity: 0.4;
+                            "
+                          ></div>
+                          <span class="search-item__content-text">
+                            Збираємо гроші на лікування п’ятирічного Василя,
+                            який став жертвою ДТП
+                          </span>
+                        </div>
+                        <div class="search-item__content">
+                          <span class="search-item__content-title">Війна</span>
+                          <span class="search-item__content-text"
+                            >Необхідно зібрати ліки для поранених бійців із зони
+                            АТО
+                          </span>
+                        </div>
+                      </div>
+                      <div
+                        style="
+                          height: 1px;
+                          width: 700px;
+                          background-color: white;
+                          opacity: 0.4;
+                          margin: 40px 350px;
+                        "
+                      ></div>
+                      <div class="search-item">
+                        <div class="search-item__title block-2">Архів</div>
+                        <div class="search-item__content">
+                          <span class="search-item__content-title">Дiти</span>
+                          <span class="search-item__content-text"
+                            >Необхідно купити ліки для дитячого будинку в місті
+                            Київ</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="login">
+              <span class="login-text"> Вхід / Зареєструватися </span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main_archive_container">
+        <nav class="button-nav-archive">
+          <div class="button-group-archive">
+            <button class="button-nav-archiv" id="viyna">Війна</button>
+            <button class="button-nav-archiv" id="ekolohiya">Екологія</button>
+            <button class="button-nav-archiv" id="dity">Діти</button>
+            <button class="button-nav-archiv" id="osvita">Освіта</button>
+          </div>
+        </nav>
+        <div class="container">
+          <span class="main__content-link main__content-link-archive">
+            Види допомоги<a href="#!"
+              ><img
+                class="arrow arrow-archive"
+                src="../Img/arrow.svg"
+                alt="arrow"
+              />
+            </a>
+          </span>
+          <div class="archive-content">
+            <img src="../Img/Проекты-urgent_help.png" alt="" />
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+            <button>
+                <img class="chat" src="../Img/urgent_help-chat.png" style="float: right" />
+              </button>
+            </footer>
+    </div>
+    
+    <script src="../Js/main.js"></script>
+  </body>
+</html>

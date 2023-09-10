@@ -1,0 +1,45 @@
+.main__content-link-archive {
+  display: flex;
+  justify-content: end;
+}
+
+.arrow-archive {
+  transform: rotate(270deg);
+}
+
+.header-items-archive {
+  margin-bottom: 50px;
+}
+
+.button-group-archive {
+  display: flex;
+  justify-content: center;
+  column-gap: 127px;
+  font-size: 64px;
+}
+.button-nav-archiv {
+  transition: transform 0.3s ease;
+  color: gray;
+
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.button-nav-archiv.active {
+  color: white;
+}
+
+.button-nav-archiv:not(.active) {
+  color: gray;
+}
+
+.active {
+  color: white;
+}
+
+.archive-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}

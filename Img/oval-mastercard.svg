@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="41px" height="25px" viewBox="0 0 41 25" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Мастеркард" transform="translate(30 20)">
+    <path d="M12.5 25C19.4036 25 25 19.4036 25 12.5C25 5.59644 19.4036 0 12.5 0C5.59644 0 0 5.59644 0 12.5C0 19.4036 5.59644 25 12.5 25Z" id="Oval" fill="#FFFFFF" fill-opacity="0.8" fill-rule="evenodd" stroke="none" />
+    <path d="M28.5 25C35.4036 25 41 19.4036 41 12.5C41 5.59644 35.4036 0 28.5 0C21.5964 0 16 5.59644 16 12.5C16 19.4036 21.5964 25 28.5 25Z" id="Oval-Copy" fill="#FFFFFF" fill-opacity="0.7" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
